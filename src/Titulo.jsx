@@ -1,6 +1,6 @@
-function Titulo() {
+function Titulo(props) {
     return (
-        <h2>Eu sou um título h2</h2>
+        <h2>{props.title}</h2>
     )
 }
 

@@ -1,6 +1,6 @@
-function Paragrafo() {
+function Paragrafo(props) {
     return (
-        <h3>This is a subtitle</h3>
+        <h3>{props.children}</h3>
     )
 }
 

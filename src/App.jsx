@@ -1,17 +1,16 @@
 import { useState } from 'react'
-import Card from './Card'
-import SayHello from './SayHello'
-import Relogio from './Relogio'
+import Cards from './Cards'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <div>
-        <Card />
-        <SayHello />
-        <Relogio />
-      </div>
+      <>
+        <Cards />
+      </>
+        
+        
       
   )
 }

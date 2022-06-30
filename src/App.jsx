@@ -8,7 +8,7 @@ function App() {
 
   return (
       <div>
-        <Imagem />
+        <Imagem/>
         <Titulo />
         <Paragrafo />
       </div>

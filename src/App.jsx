@@ -1,18 +1,16 @@
 import { useState } from 'react'
-import Titulo from './Titulo'
-import Paragrafo from './Paragrafo'
-import Imagem from './Imagem'
+import Card from './Card'
 import SayHello from './SayHello'
+import Relogio from './Relogio'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
       <div>
-        <Imagem />
-        <Titulo />
-        <Paragrafo />
+        <Card />
         <SayHello />
+        <Relogio />
       </div>
       
   )

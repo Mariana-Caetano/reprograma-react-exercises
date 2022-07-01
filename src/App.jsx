@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Cards from './Cards'
+import Image from './Image/Image'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 
   return (
       <>
+        <Image />
         <Cards />
       </>
         
